@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Table from './Table'
+import TableRows from './TableRows'
+import { products } from './products'
 
-render(<Table />, document.getElementById('container'));
+render(<TableRows products = {products}/>, document.getElementById('container'));
